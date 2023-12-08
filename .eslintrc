@@ -54,7 +54,7 @@
     "quote-props": 0,
     "react/prop-types": 0,
     "no-loop-func": 0,
-    "no-console": ["error", { "allow": ["info"] }],
+    "no-console": "off",
     "no-confusing-arrow": ["error", { "allowParens": true }],
     "lines-between-class-members": ["error", "always", { "exceptAfterSingleLine": true }],
     "dot-notation": "off",

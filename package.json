@@ -7,13 +7,16 @@
     "lint:fix": "npx eslint --fix ."
   },
   "dependencies": {
+    "@react-three/drei": "^9.89.0",
     "@react-three/fiber": "^8.15.11",
     "@reduxjs/toolkit": "^1.9.7",
+    "@types/node": "^20.10.1",
     "@types/react": "^18.2.38",
     "@types/react-dom": "^18.2.16",
     "@types/three": "^0.158.3",
     "@typescript-eslint/eslint-plugin": "^6.12.0",
     "@typescript-eslint/parser": "^6.12.0",
+    "dev": "^0.1.3",
     "eslint": "^8.54.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.29.0",

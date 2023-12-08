@@ -46,7 +46,16 @@ const rules = [{
       import: true
     }
   }]
-}];
+},
+{
+  test: /\.(png|svg|jpg|jpeg|gif)$/i,
+  type: 'asset/resource'
+},
+{
+  test: /\.(woff|woff2|eot|ttf|otf)$/i,
+  type: 'asset/resource'
+}
+];
 
 module.exports = {
   devServer: {
@@ -55,7 +64,7 @@ module.exports = {
     host: '0.0.0.0'
   },
   resolve: {
-    extensions: ['.ts', '.tsx', '.js']
+    extensions: ['.ts', '.tsx', '.js', '.css']
   },
   entry: {
     'index': ['./src/index.tsx']

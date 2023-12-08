@@ -3,10 +3,10 @@
     "target": "ES2020",
     "module": "ES2020",
     "lib": [
-      "ES2020",
-      "DOM"
+      "dom",
+      "es2015",
     ],
-    "jsx": "react",
+    "jsx": "react-jsx",
     "downlevelIteration": true,
     "strict": true,
     "noImplicitAny": true,
